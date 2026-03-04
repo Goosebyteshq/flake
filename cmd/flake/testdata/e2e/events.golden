@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "run": {
+    "run_id": "run-902b57ad94f00648",
+    "timestamp": "2026-03-03T12:02:00Z",
+    "framework": "go",
+    "meta": {}
+  },
+  "tests": [
+    {
+      "test_id": "TestA",
+      "derived": {
+        "class": "Healthy",
+        "failure_rate": 0.3333333333333333,
+        "sample_size": 3,
+        "failures": 1,
+        "passes": 2
+      },
+      "timestamps": {
+        "last_seen": "2026-03-03T12:02:00Z",
+        "last_failed_at": "2026-03-03T12:00:00Z",
+        "last_passed_at": "2026-03-03T12:02:00Z"
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "test_id": "TestA",
+      "from": "Recovering",
+      "to": "Healthy",
+      "failure_rate": 0.3333333333333333,
+      "severity": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+scan: framework=go tests=1 transitions=1

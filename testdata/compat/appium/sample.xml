@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="appium">
+  <testcase classname="mobile.login" name="opens app" file="tests/mobile/login.spec.js" />
+  <testcase classname="mobile.login" name="rejects bad pin" file="tests/mobile/login.spec.js">
+    <failure message="element not found" />
+  </testcase>
+  <testcase classname="mobile.login" name="legacy flow" file="tests/mobile/login.spec.js">
+    <skipped />
+  </testcase>
+</testsuite>

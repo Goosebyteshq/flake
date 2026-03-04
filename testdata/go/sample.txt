@@ -1,0 +1,7 @@
+=== RUN   TestAlpha
+--- PASS: TestAlpha (0.00s)
+=== RUN   TestBeta
+--- FAIL: TestBeta (0.00s)
+=== RUN   TestGamma
+--- SKIP: TestGamma (0.00s)
+FAIL

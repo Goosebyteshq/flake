@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="newman">
+  <testcase classname="postman.users" name="GET /users returns 200" file="collections/users.postman_collection.json" />
+  <testcase classname="postman.users" name="POST /users invalid returns 400" file="collections/users.postman_collection.json">
+    <failure message="expected status 400" />
+  </testcase>
+  <testcase classname="postman.users" name="legacy endpoint" file="collections/users.postman_collection.json">
+    <skipped />
+  </testcase>
+</testsuite>

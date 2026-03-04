@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRun>
+  <Results>
+    <UnitTestResult testName="SpecFlow.Tests.LoginFeature.LoginSucceeds" outcome="Passed" />
+    <UnitTestResult testName="SpecFlow.Tests.LoginFeature.LoginFailsWithBadPassword" outcome="Failed" />
+    <UnitTestResult testName="SpecFlow.Tests.LoginFeature.LegacyScenario" outcome="NotExecuted" />
+  </Results>
+</TestRun>

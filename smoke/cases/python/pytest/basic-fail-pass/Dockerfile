@@ -1,0 +1,5 @@
+FROM python:3.12-alpine
+WORKDIR /app
+COPY . .
+RUN pip install --no-cache-dir pytest
+CMD ["sh", "-c", "pytest -vv 2>&1 || true"]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcafe">
+  <testcase classname="testcafe.auth" name="opens sign-in" file="tests/auth.test.ts" />
+  <testcase classname="testcafe.auth" name="shows error on bad creds" file="tests/auth.test.ts">
+    <failure message="assertion failed" />
+  </testcase>
+  <testcase classname="testcafe.auth" name="legacy route" file="tests/auth.test.ts">
+    <skipped />
+  </testcase>
+</testsuite>

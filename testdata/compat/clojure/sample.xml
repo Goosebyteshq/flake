@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="clojure-test">
+  <testcase classname="myapp.core-test" name="calculates-total" file="test/myapp/core_test.clj" />
+  <testcase classname="myapp.core-test" name="rejects-invalid" file="test/myapp/core_test.clj">
+    <failure message="expected truthy" />
+  </testcase>
+  <testcase classname="myapp.core-test" name="legacy-feature" file="test/myapp/core_test.clj">
+    <skipped />
+  </testcase>
+</testsuite>

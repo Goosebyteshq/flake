@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="phpunit">
+  <testcase classname="Tests\\UserTest" name="testCreatesUser" file="tests/UserTest.php" />
+  <testcase classname="Tests\\UserTest" name="testRejectsDuplicate" file="tests/UserTest.php">
+    <failure message="failed assertion" />
+  </testcase>
+  <testcase classname="Tests\\UserTest" name="testLegacy" file="tests/UserTest.php">
+    <skipped />
+  </testcase>
+</testsuite>

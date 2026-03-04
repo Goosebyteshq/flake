@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="selenium-suite">
+  <testcase classname="com.example.LoginIT" name="canLogin" file="src/test/java/com/example/LoginIT.java" />
+  <testcase classname="com.example.LoginIT" name="rejectsBadPassword" file="src/test/java/com/example/LoginIT.java">
+    <failure message="timeout waiting for element" />
+  </testcase>
+  <testcase classname="com.example.LoginIT" name="legacyPath" file="src/test/java/com/example/LoginIT.java">
+    <skipped />
+  </testcase>
+</testsuite>

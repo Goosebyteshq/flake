@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spock">
+  <testcase classname="com.example.UserSpec" name="creates user" file="src/test/groovy/com/example/UserSpec.groovy" />
+  <testcase classname="com.example.UserSpec" name="rejects duplicate" file="src/test/groovy/com/example/UserSpec.groovy">
+    <failure message="Condition not satisfied" />
+  </testcase>
+  <testcase classname="com.example.UserSpec" name="legacy behavior" file="src/test/groovy/com/example/UserSpec.groovy">
+    <skipped />
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+Jasmine started
+ ✓ UserService should return cached user
+ ✕ UserService should handle network failures
+ ○ UserService should support legacy API

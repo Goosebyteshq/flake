@@ -1,0 +1,11 @@
+{
+  "name": "smoke-jest-basic",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --runInBand --colors=false"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}

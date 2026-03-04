@@ -1,0 +1,2 @@
+sh '<your test command> 2>&1 | tee test-output.txt'
+sh 'flake scan --framework auto --input test-output.txt --state .flake-state.json --events flake-events.json --fail-on broken,newfail'

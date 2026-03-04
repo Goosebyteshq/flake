@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run>
+  <test-suite>
+    <results>
+      <test-case fullname="NUnit.Console.Tests.UserTests.CanLogin" result="Passed" />
+      <test-case fullname="NUnit.Console.Tests.UserTests.CannotLogin" result="Failed" />
+      <test-case fullname="NUnit.Console.Tests.UserTests.LegacyPath" result="Skipped" />
+    </results>
+  </test-suite>
+</test-run>

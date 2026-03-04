@@ -1,0 +1,7 @@
+===============================================
+Suite
+Total tests run: 3, Passes: 1, Failures: 1, Skips: 1
+===============================================
+PASSED: com.example.LoginTest.testValidLogin
+FAILED: com.example.LoginTest.testInvalidLogin
+SKIPPED: com.example.LoginTest.testRememberDevice

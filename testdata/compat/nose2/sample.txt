@@ -1,0 +1,6 @@
+test_health (tests.test_api.TestAPI) ... ok
+test_timeout (tests.test_api.TestAPI) ... ERROR
+test_migration (tests.test_api.TestAPI) ... skipped 'migrations disabled'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s

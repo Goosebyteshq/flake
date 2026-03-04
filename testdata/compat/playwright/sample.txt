@@ -1,0 +1,5 @@
+Running 3 tests using 1 worker
+Playwright Test v1.51.0
+ ✓ [chromium] tests/login.spec.ts:4:7 > login flow > loads login page
+ ✘ [chromium] tests/login.spec.ts:9:7 > login flow > rejects invalid credentials
+ ○ [chromium] tests/login.spec.ts:16:7 > login flow > remembers device

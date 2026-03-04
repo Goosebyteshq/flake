@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="webdriverio">
+  <testcase classname="e2e.login" name="loads login page" file="test/specs/login.e2e.js" />
+  <testcase classname="e2e.login" name="rejects invalid login" file="test/specs/login.e2e.js">
+    <failure message="expected 401" />
+  </testcase>
+  <testcase classname="e2e.login" name="legacy flow" file="test/specs/login.e2e.js">
+    <skipped />
+  </testcase>
+</testsuite>

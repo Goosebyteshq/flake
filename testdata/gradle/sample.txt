@@ -1,0 +1,3 @@
+com.example.FooTest > testPass PASSED
+com.example.FooTest > testFail FAILED
+com.example.FooTest > testSkip SKIPPED

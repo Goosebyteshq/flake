@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dart-test">
+  <testcase classname="calculator_test.dart" name="adds numbers" file="test/calculator_test.dart" />
+  <testcase classname="calculator_test.dart" name="subtracts numbers" file="test/calculator_test.dart">
+    <failure message="Expected 1 got 2" />
+  </testcase>
+  <testcase classname="calculator_test.dart" name="legacy behavior" file="test/calculator_test.dart">
+    <skipped />
+  </testcase>
+</testsuite>

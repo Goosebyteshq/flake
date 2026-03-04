@@ -1,0 +1,5 @@
+TAP version 13
+ok 1 - parses config
+not ok 2 - handles invalid config
+ok 3 - skips legacy path # SKIP legacy mode
+1..3

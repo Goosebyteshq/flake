@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="catch2">
+  <testcase classname="ParserSuite" name="handles valid input" file="parser_tests.cpp" />
+  <testcase classname="ParserSuite" name="rejects malformed input" file="parser_tests.cpp">
+    <failure message="REQUIRE failed" />
+  </testcase>
+  <testcase classname="ParserSuite" name="legacy mode" file="parser_tests.cpp">
+    <skipped />
+  </testcase>
+</testsuite>

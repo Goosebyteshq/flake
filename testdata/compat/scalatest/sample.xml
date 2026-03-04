@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ScalaTest">
+  <testcase classname="com.example.UserSpec" name="creates user" file="src/test/scala/com/example/UserSpec.scala" />
+  <testcase classname="com.example.UserSpec" name="rejects duplicate" file="src/test/scala/com/example/UserSpec.scala">
+    <failure message="assertion failed" />
+  </testcase>
+  <testcase classname="com.example.UserSpec" name="legacy branch" file="src/test/scala/com/example/UserSpec.scala">
+    <skipped />
+  </testcase>
+</testsuite>

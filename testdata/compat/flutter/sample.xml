@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="flutter-test">
+  <testcase classname="widget_test.dart" name="renders widget" file="test/widget_test.dart" />
+  <testcase classname="widget_test.dart" name="shows error state" file="test/widget_test.dart">
+    <failure message="Expected Text widget" />
+  </testcase>
+  <testcase classname="widget_test.dart" name="legacy route" file="test/widget_test.dart">
+    <skipped />
+  </testcase>
+</testsuite>

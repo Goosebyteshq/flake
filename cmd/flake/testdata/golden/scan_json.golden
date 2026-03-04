@@ -1,0 +1,77 @@
+scan: framework=go tests=3 transitions=0
+{
+  "run_id": "run-22952a65dbaef2d2",
+  "timestamp": "2026-03-03T12:00:00Z",
+  "framework": "go",
+  "tests_parsed": 3,
+  "transitions": [],
+  "class_counts": {
+    "Healthy": 2,
+    "NewFail": 1
+  },
+  "policy": {
+    "newfail_sample_max": 3,
+    "flaky_min_failures": 3,
+    "flaky_min_rate": 0.05,
+    "flaky_max_rate": 0.5,
+    "broken_min_rate": 0.8,
+    "enable_recovering": true,
+    "recovering_min_drop": 0.2
+  },
+  "classifications": [
+    {
+      "test_id": "TestAlpha",
+      "history": "P",
+      "derived": {
+        "class": "Healthy",
+        "failure_rate": 0,
+        "failures": 0,
+        "passes": 1,
+        "sample_size": 1
+      },
+      "explanation": {
+        "base_class": "Healthy",
+        "recovering_applied": false,
+        "reasons": [
+          "healthy_no_failures"
+        ]
+      }
+    },
+    {
+      "test_id": "TestBeta",
+      "history": "F",
+      "derived": {
+        "class": "NewFail",
+        "failure_rate": 1,
+        "failures": 1,
+        "passes": 0,
+        "sample_size": 1
+      },
+      "explanation": {
+        "base_class": "NewFail",
+        "recovering_applied": false,
+        "reasons": [
+          "newfail_small_sample"
+        ]
+      }
+    },
+    {
+      "test_id": "TestGamma",
+      "history": "",
+      "derived": {
+        "class": "Healthy",
+        "failure_rate": 0,
+        "failures": 0,
+        "passes": 0,
+        "sample_size": 0
+      },
+      "explanation": {
+        "base_class": "Healthy",
+        "recovering_applied": false,
+        "reasons": [
+          "healthy_no_failures"
+        ]
+      }
+    }
+  ]
+}

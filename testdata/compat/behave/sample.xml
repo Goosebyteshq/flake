@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="behave">
+  <testcase classname="features.user" name="create user" file="features/user.feature" />
+  <testcase classname="features.user" name="duplicate user" file="features/user.feature">
+    <failure message="step assertion failed" />
+  </testcase>
+  <testcase classname="features.user" name="legacy scenario" file="features/user.feature">
+    <skipped />
+  </testcase>
+</testsuite>

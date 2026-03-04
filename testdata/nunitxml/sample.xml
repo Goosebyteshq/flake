@@ -1,0 +1,9 @@
+<test-run>
+  <test-suite>
+    <results>
+      <test-case fullname="Suite.Foo.TestPass" result="Passed" />
+      <test-case fullname="Suite.Foo.TestFail" result="Failed" />
+      <test-case fullname="Suite.Foo.TestSkip" result="Skipped" />
+    </results>
+  </test-suite>
+</test-run>

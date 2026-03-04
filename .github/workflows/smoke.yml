@@ -1,0 +1,40 @@
+name: Smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      case_id:
+        description: "Single case id (optional)"
+        required: false
+        type: string
+      tiers:
+        description: "Comma-separated tiers when case_id is empty"
+        required: false
+        default: "pr"
+        type: string
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Build flake binary
+        run: make smoke-build
+
+      - name: Run smoke cases
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${{ inputs.case_id }}" ]; then
+            CASE="${{ inputs.case_id }}" FLAKE_BIN="$PWD/.dist-smoke/flake" smoke/scripts/run.sh
+          else
+            SMOKE_TIERS="${{ inputs.tiers }}" FLAKE_BIN="$PWD/.dist-smoke/flake" smoke/scripts/run.sh
+          fi

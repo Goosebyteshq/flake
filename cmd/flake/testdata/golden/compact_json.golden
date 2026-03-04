@@ -1,0 +1,8 @@
+compact: mode=applied before=3 after=1 removed=2
+{
+  "before": 3,
+  "after": 1,
+  "removed": 2,
+  "removed_by_age": 2,
+  "removed_by_cap": 0
+}

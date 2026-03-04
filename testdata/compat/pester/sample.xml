@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-run>
+  <test-suite>
+    <results>
+      <test-case fullname="Pester.User.Tests.CanLogin" result="Passed" />
+      <test-case fullname="Pester.User.Tests.CannotLogin" result="Failed" />
+      <test-case fullname="Pester.User.Tests.LegacyPath" result="Skipped" />
+    </results>
+  </test-suite>
+</test-run>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="robotframework">
+  <testcase classname="robot.api" name="GET health returns 200" file="tests/api.robot" />
+  <testcase classname="robot.api" name="POST invalid returns 400" file="tests/api.robot">
+    <failure message="keyword failed" />
+  </testcase>
+  <testcase classname="robot.api" name="legacy workflow" file="tests/api.robot">
+    <skipped />
+  </testcase>
+</testsuite>

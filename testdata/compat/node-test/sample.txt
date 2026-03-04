@@ -1,0 +1,5 @@
+TAP version 13
+ok 1 - supports health endpoint
+not ok 2 - rejects malformed payload
+ok 3 - skips legacy mode # SKIP unsupported
+1..3

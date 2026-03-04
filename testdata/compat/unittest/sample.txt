@@ -1,0 +1,6 @@
+test_add (tests.test_math.TestMath) ... ok
+test_subtract (tests.test_math.TestMath) ... FAIL
+test_legacy (tests.test_math.TestMath) ... skipped 'legacy path'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s

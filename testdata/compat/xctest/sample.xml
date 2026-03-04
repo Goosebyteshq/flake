@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="xctest">
+  <testcase classname="AppTests" name="testLoginSuccess" file="AppTests.swift" />
+  <testcase classname="AppTests" name="testLoginFailure" file="AppTests.swift">
+    <failure message="XCTAssertEqual failed" />
+  </testcase>
+  <testcase classname="AppTests" name="testLegacyPath" file="AppTests.swift">
+    <skipped />
+  </testcase>
+</testsuite>

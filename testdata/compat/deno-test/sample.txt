@@ -1,0 +1,5 @@
+TAP version 13
+ok 1 - deno test should parse json
+not ok 2 - deno test should reject invalid json
+ok 3 - deno test skips legacy feature # SKIP legacy
+1..3

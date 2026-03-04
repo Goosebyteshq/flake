@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Elixir.MyApp.UserTest">
+  <testcase classname="Elixir.MyApp.UserTest" name="test creates user" file="test/user_test.exs" />
+  <testcase classname="Elixir.MyApp.UserTest" name="test rejects duplicate" file="test/user_test.exs">
+    <failure message="assertion failed" />
+  </testcase>
+  <testcase classname="Elixir.MyApp.UserTest" name="test legacy" file="test/user_test.exs">
+    <skipped />
+  </testcase>
+</testsuite>

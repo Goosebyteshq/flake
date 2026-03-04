@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec">
+  <testcase classname="spec.user_spec" name="creates user" file="spec/user_spec.rb" />
+  <testcase classname="spec.user_spec" name="rejects duplicate" file="spec/user_spec.rb">
+    <failure message="expected failure" />
+  </testcase>
+  <testcase classname="spec.user_spec" name="legacy path" file="spec/user_spec.rb">
+    <skipped />
+  </testcase>
+</testsuite>

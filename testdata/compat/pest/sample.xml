@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pest">
+  <testcase classname="tests/Feature/UserTest.php" name="it creates a user" file="tests/Feature/UserTest.php" />
+  <testcase classname="tests/Feature/UserTest.php" name="it rejects duplicate" file="tests/Feature/UserTest.php">
+    <failure message="expectation failed" />
+  </testcase>
+  <testcase classname="tests/Feature/UserTest.php" name="it skips legacy" file="tests/Feature/UserTest.php">
+    <skipped />
+  </testcase>
+</testsuite>

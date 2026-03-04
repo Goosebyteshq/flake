@@ -1,0 +1,7 @@
+<TestRun>
+  <Results>
+    <UnitTestResult testName="Math.Add" outcome="Passed" />
+    <UnitTestResult testName="Math.Sub" outcome="Failed" />
+    <UnitTestResult testName="Math.Skip" outcome="NotExecuted" />
+  </Results>
+</TestRun>

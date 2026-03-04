@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run: <your test command> 2>&1 | tee test-output.txt
+      - run: flake scan --framework auto --input test-output.txt --state .flake-state.json --events flake-events.json --fail-on broken,newfail
+workflows:
+  test:
+    jobs:
+      - test

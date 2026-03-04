@@ -1,0 +1,5 @@
+PASS src/math.test.ts
+  math
+    ✓ adds numbers
+    ✕ subtracts numbers
+    ○ skipped case

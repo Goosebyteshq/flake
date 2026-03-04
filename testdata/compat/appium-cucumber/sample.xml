@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="appium-cucumber">
+  <testcase classname="mobile.features.login" name="Scenario: Login succeeds" file="features/login.feature" />
+  <testcase classname="mobile.features.login" name="Scenario: Invalid password" file="features/login.feature">
+    <failure message="step failed" />
+  </testcase>
+  <testcase classname="mobile.features.login" name="Scenario: Legacy flow" file="features/login.feature">
+    <skipped />
+  </testcase>
+</testsuite>

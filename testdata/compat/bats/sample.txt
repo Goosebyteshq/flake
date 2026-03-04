@@ -1,0 +1,5 @@
+TAP version 13
+ok 1 should list users
+not ok 2 should reject invalid payload
+ok 3 should skip legacy flow # SKIP unsupported
+1..3

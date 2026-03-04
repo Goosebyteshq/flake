@@ -1,0 +1,34 @@
+NewFail 1.00 TestBeta
+Healthy 0.00 TestAlpha
+Healthy 0.00 TestGamma
+{
+  "total_by_class": {
+    "Healthy": 2,
+    "NewFail": 1
+  },
+  "rows": [
+    {
+      "test_id": "TestBeta",
+      "class": "NewFail",
+      "failure_rate": 1,
+      "history": "F",
+      "last_seen": "2026-03-03T12:00:00Z",
+      "fail_streak": 1
+    },
+    {
+      "test_id": "TestAlpha",
+      "class": "Healthy",
+      "failure_rate": 0,
+      "history": "P",
+      "last_seen": "2026-03-03T12:00:00Z"
+    },
+    {
+      "test_id": "TestGamma",
+      "class": "Healthy",
+      "failure_rate": 0,
+      "history": "",
+      "last_seen": "2026-03-03T12:00:00Z"
+    }
+  ],
+  "view": "default"
+}

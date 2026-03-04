@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ctest">
+  <testcase classname="core.suite" name="core_pass" file="core_test.cpp" />
+  <testcase classname="core.suite" name="core_fail" file="core_test.cpp">
+    <failure message="assert failed" />
+  </testcase>
+  <testcase classname="core.suite" name="core_skip" file="core_test.cpp">
+    <skipped />
+  </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="karate">
+  <testcase classname="features.auth" name="login success" file="src/test/resources/features/auth.feature" />
+  <testcase classname="features.auth" name="login invalid" file="src/test/resources/features/auth.feature">
+    <failure message="status code was 500" />
+  </testcase>
+  <testcase classname="features.auth" name="legacy auth" file="src/test/resources/features/auth.feature">
+    <skipped />
+  </testcase>
+</testsuite>

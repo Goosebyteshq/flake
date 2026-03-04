@@ -1,0 +1,3 @@
+  ✔ should pass
+  ✖ should fail
+  - should skip

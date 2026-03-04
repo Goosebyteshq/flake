@@ -1,0 +1,7 @@
+[info] sbt 1.10.0
+[info] UserServiceSpec:
+[info] - should create users
+[error] - should reject duplicates *** FAILED ***
+[info] com.example.UserServiceSpec > shouldCreateUser PASSED
+[info] com.example.UserServiceSpec > shouldRejectDuplicate FAILED
+[info] com.example.UserServiceSpec > shouldSkipLegacy SKIPPED

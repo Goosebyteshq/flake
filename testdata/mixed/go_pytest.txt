@@ -1,0 +1,5 @@
+--- PASS: TestGoA (0.00s)
+--- FAIL: TestGoB (0.00s)
+
+tests/test_math.py::test_add PASSED
+tests/test_math.py::test_sub FAILED

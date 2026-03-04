@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="minitest">
+  <testcase classname="Minitest::UserTest" name="test_create" file="test/user_test.rb" />
+  <testcase classname="Minitest::UserTest" name="test_duplicate" file="test/user_test.rb">
+    <failure message="assertion failed" />
+  </testcase>
+  <testcase classname="Minitest::UserTest" name="test_legacy" file="test/user_test.rb">
+    <skipped />
+  </testcase>
+</testsuite>

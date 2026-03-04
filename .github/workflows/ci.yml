@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*"]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Go Vet
+        run: go vet ./...
+
+      - name: Setup Staticcheck
+        uses: dominikh/staticcheck-action@v1
+        with:
+          version: "2025.1.1"
+
+      - name: Staticcheck
+        run: staticcheck ./...
+
+  test:
+    runs-on: ubuntu-latest
+    needs: lint
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shard: cmd
+            packages: ./cmd/flake
+          - shard: core
+            packages: ./internal/app ./internal/config ./internal/domain ./internal/engine
+          - shard: parsers_notify
+            packages: ./internal/parsers ./internal/notify ./internal/events
+          - shard: state_report_publish
+            packages: ./internal/state ./internal/report ./internal/publish ./internal/runmeta
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Test (${{ matrix.shard }})
+        run: go test ${{ matrix.packages }}
+
+  build:
+    runs-on: ${{ matrix.os }}
+    needs: test
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            goos: linux
+            goarch: amd64
+          - os: ubuntu-latest
+            goos: linux
+            goarch: arm64
+          - os: macos-latest
+            goos: darwin
+            goarch: amd64
+          - os: macos-latest
+            goos: darwin
+            goarch: arm64
+          - os: windows-latest
+            goos: windows
+            goarch: amd64
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          ext=""
+          if [ "${{ matrix.goos }}" = "windows" ]; then
+            ext=".exe"
+          fi
+          CGO_ENABLED=0 GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} \
+            go build -trimpath -ldflags="-s -w -buildid=" -o "dist/flake-${{ matrix.goos }}-${{ matrix.goarch }}${ext}" ./cmd/flake
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: flake-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: dist/*

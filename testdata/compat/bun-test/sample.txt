@@ -1,0 +1,4 @@
+bun test v1.2.0
+✓ math > adds values
+✘ math > subtracts values
+○ math > legacy scenario

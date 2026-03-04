@@ -1,0 +1,11 @@
+<testsuites>
+  <testsuite name="pkg.math" tests="3" failures="1" skipped="1">
+    <testcase classname="pkg.math" name="TestAdd" file="math_test.go" />
+    <testcase classname="pkg.math" name="TestSub" file="math_test.go">
+      <failure message="boom">assertion</failure>
+    </testcase>
+    <testcase classname="pkg.math" name="TestSkip" file="math_test.go">
+      <skipped />
+    </testcase>
+  </testsuite>
+</testsuites>

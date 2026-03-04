@@ -1,0 +1,6 @@
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+JUnit Jupiter
+  ✔ CalculatorTests
+    ✔ adds()
+    ✘ subtracts()
+  ○ LegacySuite

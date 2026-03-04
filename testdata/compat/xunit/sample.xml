@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRun>
+  <Results>
+    <UnitTestResult testName="Xunit.Tests.MathTests.Add" outcome="Passed" />
+    <UnitTestResult testName="Xunit.Tests.MathTests.Subtract" outcome="Failed" />
+    <UnitTestResult testName="Xunit.Tests.MathTests.Legacy" outcome="NotExecuted" />
+  </Results>
+</TestRun>

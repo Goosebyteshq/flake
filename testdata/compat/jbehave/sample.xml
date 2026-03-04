@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jbehave">
+  <testcase classname="stories.login" name="successful login story" file="src/test/resources/stories/login.story" />
+  <testcase classname="stories.login" name="invalid login story" file="src/test/resources/stories/login.story">
+    <failure message="Then step failed" />
+  </testcase>
+  <testcase classname="stories.login" name="legacy story" file="src/test/resources/stories/login.story">
+    <skipped />
+  </testcase>
+</testsuite>

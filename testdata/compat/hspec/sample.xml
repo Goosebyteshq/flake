@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hspec">
+  <testcase classname="Spec.UserSpec" name="creates user" file="test/Spec/UserSpec.hs" />
+  <testcase classname="Spec.UserSpec" name="rejects duplicate" file="test/Spec/UserSpec.hs">
+    <failure message="expected False" />
+  </testcase>
+  <testcase classname="Spec.UserSpec" name="legacy mode" file="test/Spec/UserSpec.hs">
+    <skipped />
+  </testcase>
+</testsuite>

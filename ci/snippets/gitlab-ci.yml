@@ -1,0 +1,7 @@
+stages:
+  - test
+
+test:
+  script:
+    - <your test command> 2>&1 | tee test-output.txt
+    - flake scan --framework auto --input test-output.txt --state .flake-state.json --events flake-events.json --fail-on broken,newfail

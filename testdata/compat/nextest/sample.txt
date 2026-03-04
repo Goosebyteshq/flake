@@ -1,0 +1,7 @@
+cargo nextest run
+
+test crate_tests_adds ... ok
+test crate_tests_subtracts ... FAILED
+test crate_tests_legacy ... ignored
+
+test result: FAILED. 1 passed; 1 failed; 1 ignored

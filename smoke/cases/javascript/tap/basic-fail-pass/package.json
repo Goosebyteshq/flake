@@ -1,0 +1,11 @@
+{
+  "name": "smoke-tap-basic",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "tape": "5.9.0"
+  }
+}

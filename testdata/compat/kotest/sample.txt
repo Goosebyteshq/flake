@@ -1,0 +1,4 @@
+> Task :test
+com.example.UserServiceTest > shouldCreateUser PASSED
+com.example.UserServiceTest > shouldRejectDuplicate FAILED
+com.example.UserServiceTest > shouldSkipLegacy SKIPPED

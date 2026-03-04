@@ -1,0 +1,6 @@
+py311: install_deps> python -I -m pip install pytest
+py311: commands[0]> pytest -q
+tests/test_cli.py::test_scan PASSED
+tests/test_cli.py::test_report FAILED
+tests/test_cli.py::test_notify SKIPPED
+py311: FAIL code 1 (0.85=setup[0.12]+cmd[0.73] seconds)

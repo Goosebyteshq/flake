@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "go-go-test-basic-fail-pass",
+      "language": "go",
+      "framework": "go-test",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/go/go-test/basic-fail-pass",
+      "expected": {
+        "framework": "go",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "python-pytest-basic-fail-pass",
+      "language": "python",
+      "framework": "pytest",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/python/pytest/basic-fail-pass",
+      "expected": {
+        "framework": "pytest",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "javascript-jest-basic-fail-pass",
+      "language": "javascript",
+      "framework": "jest",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/javascript/jest/basic-fail-pass",
+      "expected": {
+        "framework": "jest",
+        "class_counts": {
+          "NewFail": 2
+        }
+      }
+    },
+    {
+      "id": "java-surefire-basic-fail-pass",
+      "language": "java",
+      "framework": "surefire",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/java/surefire/basic-fail-pass",
+      "expected": {
+        "framework": "surefire",
+        "class_counts": {
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "java-gradle-basic-fail-pass",
+      "language": "java",
+      "framework": "gradle",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/java/gradle/basic-fail-pass",
+      "expected": {
+        "framework": "gradle",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "dotnet-trx-basic-fail-pass",
+      "language": "dotnet",
+      "framework": "trx",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/dotnet/trx/basic-fail-pass",
+      "expected": {
+        "framework": "trx",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "javascript-mocha-basic-fail-pass",
+      "language": "javascript",
+      "framework": "mocha",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/javascript/mocha/basic-fail-pass",
+      "expected": {
+        "framework": "mocha",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "javascript-tap-basic-fail-pass",
+      "language": "javascript",
+      "framework": "tap",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/javascript/tap/basic-fail-pass",
+      "expected": {
+        "framework": "tap",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    },
+    {
+      "id": "python-unittest-junitxml-basic-fail-pass",
+      "language": "python",
+      "framework": "unittest-junitxml",
+      "case": "basic-fail-pass",
+      "tier": "pr",
+      "status": "active",
+      "path": "smoke/cases/python/unittest-junitxml/basic-fail-pass",
+      "expected": {
+        "framework": "junitxml",
+        "class_counts": {
+          "Healthy": 1,
+          "NewFail": 1
+        }
+      }
+    }
+  ]
+}

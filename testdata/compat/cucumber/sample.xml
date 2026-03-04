@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cucumber">
+  <testcase classname="features.login" name="Successful login" file="features/login.feature" />
+  <testcase classname="features.login" name="Invalid password" file="features/login.feature">
+    <failure message="step failed" />
+  </testcase>
+  <testcase classname="features.login" name="Legacy scenario" file="features/login.feature">
+    <skipped />
+  </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="specs2">
+  <testcase classname="com.example.AuthSpec" name="accepts token" file="src/test/scala/com/example/AuthSpec.scala" />
+  <testcase classname="com.example.AuthSpec" name="rejects expired token" file="src/test/scala/com/example/AuthSpec.scala">
+    <failure message="must be equalTo" />
+  </testcase>
+  <testcase classname="com.example.AuthSpec" name="legacy token" file="src/test/scala/com/example/AuthSpec.scala">
+    <skipped />
+  </testcase>
+</testsuite>

@@ -1,0 +1,20 @@
+Broken 0.90 broken
+{
+  "total_by_class": {
+    "Broken": 1,
+    "Flaky": 1,
+    "Healthy": 1,
+    "Recovering": 1
+  },
+  "rows": [
+    {
+      "test_id": "broken",
+      "class": "Broken",
+      "failure_rate": 0.9,
+      "history": "PPFFF",
+      "last_seen": "2026-03-03T12:00:00Z",
+      "fail_streak": 3
+    }
+  ],
+  "view": "long-failing"
+}

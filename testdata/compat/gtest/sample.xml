@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gtest">
+  <testcase classname="MathTest" name="Adds" file="math_test.cc" />
+  <testcase classname="MathTest" name="Subtracts" file="math_test.cc">
+    <failure message="Expected equality" />
+  </testcase>
+  <testcase classname="MathTest" name="Legacy" file="math_test.cc">
+    <skipped />
+  </testcase>
+</testsuite>

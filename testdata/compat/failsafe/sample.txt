@@ -1,0 +1,4 @@
+[INFO] --- failsafe:3.2.5:integration-test (default) @ sample-app ---
+[ERROR] com.example.LoginIT.testBadPassword -- Time elapsed: 0.010 s <<< FAILURE!
+[INFO] com.example.LoginIT.testCanLogin -- Time elapsed: 0.004 s <<< SUCCESS!
+[INFO] com.example.LoginIT.testLegacyPath -- Time elapsed: 0.000 s <<< SKIPPED!

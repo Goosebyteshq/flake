@@ -1,0 +1,3 @@
+com.example.FooTest.testPass  Time elapsed: 0.001 sec  <<< SUCCESS!
+com.example.FooTest.testFail  Time elapsed: 0.002 sec  <<< FAILURE!
+com.example.FooTest.testSkip  Time elapsed: 0.001 sec  <<< SKIPPED!

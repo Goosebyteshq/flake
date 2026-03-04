@@ -1,0 +1,5 @@
+RUN  v1.5.0 /workspace
+Vitest  "unit"
+ ✓ src/math.test.ts > math > adds numbers
+ ✕ src/math.test.ts > math > subtracts numbers
+ ○ src/math.test.ts > math > pending case

@@ -1,0 +1,11 @@
+
+  users e2e
+    ✔ lists users
+    1) creates user with invalid payload
+
+
+  1 passing (2s)
+  1 failing
+
+  1) users e2e
+       creates user with invalid payload:
