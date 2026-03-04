@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/app"
-	"github.com/leomorpho/flake/internal/domain"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/app"
+	"github.com/Goosebyteshq/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 func TestCLIGoldenPublishAndCompactJSON(t *testing.T) {

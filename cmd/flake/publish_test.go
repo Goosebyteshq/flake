@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/leomorpho/flake/internal/app"
+	"github.com/Goosebyteshq/flake/internal/app"
 )
 
 func TestPublishCommandRequiresURL(t *testing.T) {

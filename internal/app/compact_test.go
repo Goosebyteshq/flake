@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/domain"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type compactClock struct{ t time.Time }

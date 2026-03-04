@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/leomorpho/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/domain"
 )
 
 func BenchmarkStateSaveLoad(b *testing.B) {

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/domain"
 )
 
 func TestMigrateLegacyV0(t *testing.T) {

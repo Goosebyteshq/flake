@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/leomorpho/flake/internal/report"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/report"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type ReportOptions struct {

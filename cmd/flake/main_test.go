@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/app"
-	"github.com/leomorpho/flake/internal/parsers"
+	"github.com/Goosebyteshq/flake/internal/app"
+	"github.com/Goosebyteshq/flake/internal/parsers"
 )
 
 type fixedClock struct{ t time.Time }

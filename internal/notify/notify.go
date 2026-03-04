@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/leomorpho/flake/internal/config"
-	"github.com/leomorpho/flake/internal/domain"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/config"
+	"github.com/Goosebyteshq/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type Notifier interface {

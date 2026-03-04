@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type CompactOptions struct {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/leomorpho/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/domain"
 )
 
 func TestAppendStatus(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/domain"
-	"github.com/leomorpho/flake/internal/parsers"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/parsers"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type fixedClock struct{ t time.Time }

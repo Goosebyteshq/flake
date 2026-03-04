@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/leomorpho/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/domain"
 	"gopkg.in/yaml.v3"
 )
 

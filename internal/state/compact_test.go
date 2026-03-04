@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/domain"
 )
 
 func TestCompactByAgeAndCap(t *testing.T) {

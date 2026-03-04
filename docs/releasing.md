@@ -2,7 +2,7 @@
 
 This project is installable as:
 
-`go install github.com/leomorpho/flake/cmd/flake@<version>`
+`go install github.com/Goosebyteshq/flake/cmd/flake@<version>`
 
 ## Release Checklist
 
@@ -34,7 +34,7 @@ Build jobs depend on tests, so if tests fail, no CI build artifacts are produced
 3. Verify install from a separate repo (or clean shell):
 
 ```bash
-go install github.com/leomorpho/flake/cmd/flake@v0.1.0
+go install github.com/Goosebyteshq/flake/cmd/flake@v0.1.0
 flake
 ```
 

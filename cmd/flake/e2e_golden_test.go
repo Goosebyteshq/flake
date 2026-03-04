@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/app"
+	"github.com/Goosebyteshq/flake/internal/app"
 )
 
 func TestCLIE2EGolden(t *testing.T) {

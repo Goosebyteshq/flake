@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/leomorpho/flake/internal/events"
-	"github.com/leomorpho/flake/internal/publish"
+	"github.com/Goosebyteshq/flake/internal/events"
+	"github.com/Goosebyteshq/flake/internal/publish"
 )
 
 type PublishOptions struct {

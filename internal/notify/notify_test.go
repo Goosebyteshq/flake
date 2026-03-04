@@ -3,9 +3,9 @@ package notify
 import (
 	"testing"
 
-	"github.com/leomorpho/flake/internal/config"
-	"github.com/leomorpho/flake/internal/domain"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/config"
+	"github.com/Goosebyteshq/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 func TestFilterAndSuppression(t *testing.T) {

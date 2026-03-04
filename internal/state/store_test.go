@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leomorpho/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/domain"
 )
 
 type fixedClock struct{ t time.Time }

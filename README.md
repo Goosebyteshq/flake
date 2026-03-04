@@ -9,13 +9,13 @@ It is designed for CI first and emits stable machine-readable outputs for local 
 Install latest published version:
 
 ```bash
-go install github.com/leomorpho/flake/cmd/flake@latest
+go install github.com/Goosebyteshq/flake/cmd/flake@latest
 ```
 
 Or install a specific version:
 
 ```bash
-go install github.com/leomorpho/flake/cmd/flake@v0.1.0
+go install github.com/Goosebyteshq/flake/cmd/flake@v0.1.0
 ```
 
 Verify:

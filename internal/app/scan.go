@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/leomorpho/flake/internal/config"
-	"github.com/leomorpho/flake/internal/domain"
-	"github.com/leomorpho/flake/internal/engine"
-	"github.com/leomorpho/flake/internal/events"
-	"github.com/leomorpho/flake/internal/parsers"
-	"github.com/leomorpho/flake/internal/runmeta"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/config"
+	"github.com/Goosebyteshq/flake/internal/domain"
+	"github.com/Goosebyteshq/flake/internal/engine"
+	"github.com/Goosebyteshq/flake/internal/events"
+	"github.com/Goosebyteshq/flake/internal/parsers"
+	"github.com/Goosebyteshq/flake/internal/runmeta"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type ScanOptions struct {

@@ -6,9 +6,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/leomorpho/flake/internal/config"
-	"github.com/leomorpho/flake/internal/notify"
-	"github.com/leomorpho/flake/internal/state"
+	"github.com/Goosebyteshq/flake/internal/config"
+	"github.com/Goosebyteshq/flake/internal/notify"
+	"github.com/Goosebyteshq/flake/internal/state"
 )
 
 type NotifyOptions struct {
